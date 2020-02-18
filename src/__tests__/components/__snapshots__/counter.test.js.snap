@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> renders right 1`] = `
+<div>
+  <form>
+    <h4>
+      Choose a starting number
+    </h4>
+    <input
+      onChange={[Function]}
+      type="number"
+    />
+  </form>
+  <h4>
+    The number is
+  </h4>
+  <h2
+    id="counter"
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  >
+    0
+  </h2>
+  <button
+    className="button positive"
+    onClick={[Function]}
+  >
+    Increase
+  </button>
+  <button
+    className="button negative"
+    onClick={[Function]}
+  >
+    Decrease
+  </button>
+</div>
+`;
